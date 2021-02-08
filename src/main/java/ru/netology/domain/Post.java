@@ -5,6 +5,10 @@ public class Post {
     private int name;
     private int date;
     private String text;
-    private int CommentsLike;
-    private boolean commentsInfo;
+    private CommentsLike commentsLike;
+    private CommentsInfo commentsInfo;
+    private Attachment attachment;
+    private UserView userView;
+    private Repost repost;
+    private Copyright copyright;
 }
